@@ -1,0 +1,237 @@
+[29-Jun-2013 23:52:43 Europe/Amsterdam] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::in() in /home/matcomp/public_html/tavor2/application/models/mkategorija.php on line 62
+[04-Jul-2013 19:21:57 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MPost::return_clanak() in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 280
+[06-Jul-2013 16:18:09 Europe/Amsterdam] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/matcomp/public_html/tavor2/application/models/mekskurzija.php on line 50
+[06-Jul-2013 17:41:31 Europe/Amsterdam] PHP Fatal error:  Call to a member function return_destinations() on a non-object in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 47
+[06-Jul-2013 17:57:07 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected ';' in /home/matcomp/public_html/tavor2/application/views/clanak.php on line 16
+[06-Jul-2013 22:02:53 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MOffer::returb_offers() in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 108
+[06-Jul-2013 22:16:50 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MDes::return_ekskurziju() in /home/matcomp/public_html/tavor2/application/controllers/destinacija.php on line 45
+[06-Jul-2013 22:32:38 Europe/Amsterdam] PHP Fatal error:  Call to undefined function specijalnePonude() in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 503
+[06-Jul-2013 22:33:00 Europe/Amsterdam] PHP Fatal error:  Call to undefined function specijalnaPonude() in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 503
+[06-Jul-2013 22:33:08 Europe/Amsterdam] PHP Fatal error:  Call to undefined function specijalnaPonude() in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 503
+[06-Jul-2013 22:33:36 Europe/Amsterdam] PHP Fatal error:  Using $this when not in object context in /home/matcomp/public_html/tavor2/application/helpers/tavor_helper.php on line 86
+[06-Jul-2013 23:07:40 Europe/Amsterdam] PHP Fatal error:  Call to undefined method CI_Loader::main_config() in /home/matcomp/public_html/tavor2/application/views/layout.php on line 51
+[06-Jul-2013 23:08:35 Europe/Amsterdam] PHP Fatal error:  Call to undefined method CI_Loader::main_config() in /home/matcomp/public_html/tavor2/application/views/layout.php on line 51
+[06-Jul-2013 23:40:30 Europe/Amsterdam] PHP Fatal error:  Call to undefined method CI_Config::main() in /home/matcomp/public_html/tavor2/application/views/layout.php on line 62
+[06-Jul-2013 23:41:02 Europe/Amsterdam] PHP Fatal error:  Call to undefined method CI_Config::config() in /home/matcomp/public_html/tavor2/application/views/layout.php on line 62
+[06-Jul-2013 23:49:32 Europe/Amsterdam] PHP Fatal error:  Call to undefined method CI_Loader::post() in /home/matcomp/public_html/tavor2/application/controllers/admin.php on line 81
+[07-Jul-2013 00:10:34 Europe/Amsterdam] PHP Fatal error:  Call to undefined function write_file() in /home/matcomp/public_html/tavor2/application/controllers/admin.php on line 88
+[07-Jul-2013 00:27:47 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected T_NS_SEPARATOR in /home/matcomp/public_html/tavor2/application/config/main.php on line 1
+[07-Jul-2013 00:29:13 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected T_NS_SEPARATOR in /home/matcomp/public_html/tavor2/application/config/main.php on line 1
+[07-Jul-2013 22:13:07 Europe/Amsterdam] PHP Fatal error:  Call to a member function return_all_ekskurzije() on a non-object in /home/matcomp/public_html/tavor2/application/controllers/ekskurzija.php on line 114
+[07-Jul-2013 22:35:56 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MEkskurzija::write_ekskurziju() in /home/matcomp/public_html/tavor2/application/controllers/ekskurzija.php on line 224
+[07-Jul-2013 22:39:41 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MEkskurzija::return_ekskurzija() in /home/matcomp/public_html/tavor2/application/controllers/ekskurzija.php on line 138
+[07-Jul-2013 23:00:26 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MDes::return_all_destinacije() in /home/matcomp/public_html/tavor2/application/controllers/destinacija.php on line 82
+[07-Jul-2013 23:25:30 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MDes::write_destinaciju() in /home/matcomp/public_html/tavor2/application/controllers/destinacija.php on line 188
+[07-Jul-2013 23:27:29 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MEkskurzija::return_ekskurzija() in /home/matcomp/public_html/tavor2/application/controllers/destinacija.php on line 106
+[07-Jul-2013 23:27:57 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MEkskurzija::return_ekskurzija() in /home/matcomp/public_html/tavor2/application/controllers/destinacija.php on line 106
+[07-Jul-2013 23:40:41 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MDes::return_destinaciju() in /home/matcomp/public_html/tavor2/application/controllers/destinacija.php on line 147
+[07-Jul-2013 23:41:00 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MDes::update_destination() in /home/matcomp/public_html/tavor2/application/controllers/destinacija.php on line 158
+[09-Jul-2013 00:25:52 Europe/Amsterdam] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/matcomp/public_html/tavor2/application/views/administracija.php on line 5
+[09-Jul-2013 00:25:54 Europe/Amsterdam] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/matcomp/public_html/tavor2/application/views/administracija.php on line 5
+[09-Jul-2013 00:26:17 Europe/Amsterdam] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/matcomp/public_html/tavor2/application/views/administracija.php on line 5
+[09-Jul-2013 00:26:19 Europe/Amsterdam] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/matcomp/public_html/tavor2/application/views/administracija.php on line 5
+[09-Jul-2013 00:26:23 Europe/Amsterdam] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/matcomp/public_html/tavor2/application/views/administracija.php on line 5
+[10-Jul-2013 20:47:50 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MPost::return_all_active_posts() in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 42
+[10-Jul-2013 20:47:55 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MPost::return_all_active_posts() in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 42
+[10-Jul-2013 20:47:59 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MPost::return_all_active_posts() in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 42
+[10-Jul-2013 20:48:00 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MPost::return_all_active_posts() in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 42
+[10-Jul-2013 20:48:16 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MPost::return_all_active_posts() in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 42
+[10-Jul-2013 20:48:22 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MPost::return_all_active_posts() in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 42
+[10-Jul-2013 20:48:24 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MPost::return_all_active_posts() in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 42
+[10-Jul-2013 20:53:11 Europe/Amsterdam] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::sort_by() in /home/matcomp/public_html/tavor2/application/models/mkategorija.php on line 44
+[10-Jul-2013 22:12:41 Europe/Amsterdam] PHP Fatal error:  Call to undefined function findImages() in /home/matcomp/public_html/tavor2/application/controllers/admin.php on line 175
+[10-Jul-2013 22:31:17 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '>' in /home/matcomp/public_html/tavor2/application/views/admin_slike.php on line 9
+[11-Jul-2013 14:35:16 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MKategorija::filters() in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 588
+[11-Jul-2013 14:35:29 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MPost::filters() in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 588
+[11-Jul-2013 14:35:46 Europe/Amsterdam] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/matcomp/public_html/tavor2/application/models/mpost.php on line 183
+[11-Jul-2013 16:11:37 Europe/Amsterdam] PHP Fatal error:  Can't use method return value in write context in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 309
+[11-Jul-2013 16:11:41 Europe/Amsterdam] PHP Fatal error:  Can't use method return value in write context in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 309
+[11-Jul-2013 16:11:49 Europe/Amsterdam] PHP Fatal error:  Can't use method return value in write context in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 309
+[11-Jul-2013 16:11:53 Europe/Amsterdam] PHP Fatal error:  Can't use method return value in write context in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 309
+[11-Jul-2013 16:11:55 Europe/Amsterdam] PHP Fatal error:  Can't use method return value in write context in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 309
+[11-Jul-2013 16:20:07 Europe/Amsterdam] PHP Fatal error:  Call to a member function return_active_categories() on a non-object in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 319
+[11-Jul-2013 16:58:44 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected T_ELSE, expecting ';' in /home/matcomp/public_html/tavor2/application/views/admin_clanci.php on line 51
+[11-Jul-2013 16:59:42 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected T_ELSE, expecting ';' in /home/matcomp/public_html/tavor2/application/views/admin_clanci.php on line 51
+[13-Jul-2013 12:38:59 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected ';' in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 83
+[13-Jul-2013 12:39:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected ';' in /home/matcomp/public_html/tavor2/application/controllers/post.php on line 83
+[13-Jul-2013 15:14:29 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/matcomp/public_html/tavor2/application/views/admin_clanci.php on line 51
+[13-Jul-2013 15:15:56 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected T_ELSE, expecting ';' in /home/matcomp/public_html/tavor2/application/views/admin_ekskurzije.php on line 43
+[13-Jul-2013 15:21:07 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/matcomp/public_html/tavor2/application/views/ponude.php on line 42
+[13-Jul-2013 15:21:35 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/matcomp/public_html/tavor2/application/views/ljetovanja.php on line 46
+[13-Jul-2013 21:50:43 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home/matcomp/public_html/tavor2/application/models/mdes.php on line 44
+[13-Jul-2013 21:50:50 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR in /home/matcomp/public_html/tavor2/application/models/mdes.php on line 44
+[13-Jul-2013 21:51:18 Europe/Amsterdam] PHP Fatal error:  Call to a member function return_post() on a non-object in /home/matcomp/public_html/tavor2/application/controllers/destinacija.php on line 145
+[13-Jul-2013 21:53:24 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MDes::return_post() in /home/matcomp/public_html/tavor2/application/controllers/destinacija.php on line 145
+[13-Jul-2013 22:19:18 Europe/Amsterdam] PHP Fatal error:  Call to a member function return_post() on a non-object in /home/matcomp/public_html/tavor2/application/controllers/kategorija.php on line 109
+[13-Jul-2013 22:52:56 Europe/Amsterdam] PHP Fatal error:  Call to a member function return_post() on a non-object in /home/matcomp/public_html/tavor2/application/controllers/ekskurzija.php on line 206
+[15-Jul-2013 18:43:49 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected $end in /home/tavor/public_html/application/config/routes.php on line 41
+[15-Jul-2013 19:12:06 Europe/Amsterdam] PHP Fatal error:  Call to a member function return_post() on a non-object in /home/tavor/public_html/application/controllers/post.php on line 590
+[15-Jul-2013 19:13:27 Europe/Amsterdam] PHP Fatal error:  Call to a member function return_offer() on a non-object in /home/tavor/public_html/application/controllers/post.php on line 590
+[15-Jul-2013 19:13:53 Europe/Amsterdam] PHP Fatal error:  Call to a member function return_offer() on a non-object in /home/tavor/public_html/application/controllers/post.php on line 590
+[15-Jul-2013 21:31:16 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[15-Jul-2013 21:52:55 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[15-Jul-2013 22:07:49 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[15-Jul-2013 23:53:31 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[15-Jul-2013 23:55:00 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[15-Jul-2013 23:56:57 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 00:00:04 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 00:22:31 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 00:22:40 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 00:32:58 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 00:43:10 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 01:19:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 02:07:27 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 02:19:47 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 02:19:53 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 02:19:55 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 02:19:58 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 02:20:01 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 02:20:05 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 02:20:15 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 02:20:19 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 08:56:55 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MOffer::delete_offer() in /home/tavor/public_html/application/controllers/post.php on line 644
+[16-Jul-2013 10:18:14 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 10:18:21 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[16-Jul-2013 10:47:36 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MOffer::delete_offer() in /home/tavor/public_html/application/controllers/post.php on line 644
+[16-Jul-2013 11:47:24 Europe/Amsterdam] PHP Fatal error:  Call to undefined method MOffer::delete_offer() in /home/tavor/public_html/application/controllers/post.php on line 644
+[16-Jul-2013 11:53:34 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 01:23:57 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 03:04:01 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 03:37:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 04:31:06 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 04:31:09 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 04:31:11 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 04:31:15 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 04:31:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 04:31:19 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 04:31:21 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 04:31:23 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 04:43:58 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 10:50:37 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 14:10:38 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 14:13:30 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 15:50:37 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 16:19:57 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 17:06:20 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 18:03:58 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 19:30:31 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[17-Jul-2013 21:19:24 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[19-Jul-2013 09:28:48 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[19-Jul-2013 22:34:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[19-Jul-2013 23:17:27 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[19-Jul-2013 23:57:54 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 00:52:48 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 02:10:37 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 04:52:13 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 06:06:43 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 06:19:20 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 06:19:24 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 08:31:10 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 09:29:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 09:29:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 09:29:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 09:29:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 09:29:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 09:29:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 09:29:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 09:29:19 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[20-Jul-2013 17:02:03 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[21-Jul-2013 02:46:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[21-Jul-2013 16:47:26 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[21-Jul-2013 16:49:20 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[21-Jul-2013 20:07:55 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[21-Jul-2013 20:19:45 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[22-Jul-2013 11:59:14 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[22-Jul-2013 12:00:31 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[22-Jul-2013 12:14:14 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[22-Jul-2013 12:24:20 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[22-Jul-2013 12:29:20 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[22-Jul-2013 12:33:12 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[22-Jul-2013 12:55:29 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[22-Jul-2013 13:01:10 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[22-Jul-2013 17:46:59 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[22-Jul-2013 19:20:53 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[23-Jul-2013 16:52:51 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[23-Jul-2013 16:54:50 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[23-Jul-2013 17:00:29 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[23-Jul-2013 17:08:47 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[23-Jul-2013 17:39:19 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[23-Jul-2013 18:00:53 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[23-Jul-2013 18:17:19 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[23-Jul-2013 18:18:07 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[23-Jul-2013 22:01:11 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 11:06:09 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 11:06:28 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 11:06:38 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 11:06:48 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 11:07:32 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 11:26:19 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 11:26:28 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 12:12:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 12:29:51 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 13:11:52 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 13:36:16 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 14:03:15 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 14:16:20 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 14:40:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 17:10:43 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 17:13:50 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 17:30:35 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[24-Jul-2013 18:17:27 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 00:17:12 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 04:29:11 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 12:08:03 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 12:43:39 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 12:54:58 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 14:17:05 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 14:48:05 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 14:49:29 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 14:54:01 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 15:09:29 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 15:21:20 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 15:22:32 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 15:22:49 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 15:33:18 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 15:42:22 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 15:58:22 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 15:58:41 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 16:52:12 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 17:19:14 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 17:46:14 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 18:03:39 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 20:09:04 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 20:37:57 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 20:43:42 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 21:17:15 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 21:20:33 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 21:32:41 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 22:02:25 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 22:30:39 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[25-Jul-2013 22:33:41 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 00:38:56 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 01:16:13 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 01:47:22 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 03:11:11 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 04:32:57 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 05:35:54 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 06:56:22 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 07:23:24 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 07:27:07 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 09:08:12 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 09:12:05 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 10:02:10 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 10:02:17 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 10:02:24 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 10:06:21 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 11:30:36 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 14:30:50 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 15:06:11 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[26-Jul-2013 15:10:32 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected '.' in /home/tavor/public_html/application/views/destinacija.php on line 16
+[28-Jul-2013 19:22:37 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/tavor/public_html/application/controllers/ekskurzija.php on line 54
+[25-Mar-2014 17:13:54 Europe/Amsterdam] PHP Fatal error:  Class 'Mlocation' not found in /home/tavor/public_html/system/core/Loader.php on line 303
+[25-Mar-2014 20:39:43 Europe/Amsterdam] PHP Fatal error:  Cannot redeclare Location::action_add_zemlju() in /home/tavor/public_html/application/controllers/location.php on line 151
+[28-Mar-2014 23:03:22 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected T_ENDFOREACH in /home/tavor/public_html/application/views/ljetovanja.php on line 44
+[28-Mar-2014 23:45:47 Europe/Amsterdam] PHP Fatal error:  Call to a member function return_country() on a non-object in /home/tavor/public_html/application/controllers/post.php on line 138
+[28-Mar-2014 23:46:28 Europe/Amsterdam] PHP Fatal error:  Call to a member function return_country() on a non-object in /home/tavor/public_html/application/controllers/post.php on line 138
+[28-Mar-2014 23:47:10 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected T_IF in /home/tavor/public_html/application/controllers/post.php on line 135
+[16-Apr-2014 15:26:32 Europe/Amsterdam] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::order() in /home/tavor/public_html/application/models/mpost.php on line 82

@@ -1,0 +1,87 @@
+#analytics-container {
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	color:#333333;
+
+}
+#analytics-container tr {
+	padding: 0.3em;
+}
+#analytics-container td {
+	padding: 0;
+}
+#analytics-container h3 {
+	background-color:#555555;
+	color:#FFFFFF;
+	padding:5px;
+	margin:0px;
+	margin-bottom:10px;
+	font-size:1em;
+}
+
+#analytics-container h3 span{
+	position:absolute;
+	right:10px;
+}
+#analytics-container h3 span a{
+	text-decoration:none;
+	color:#FFFFFF;
+	font-size:1.2em;
+}
+#analytics-container .small {
+	position:relative;
+	margin:10px;
+	width:300px;
+	float:left;
+	z-index:1;
+	background-color:#FFFFFF;
+}
+#analytics-container .middle {
+	margin: 10px 0;
+	z-index:1;
+}
+#analytics-container .big {
+	position:relative;
+	margin:10px;
+	width:620px;
+	float:left;
+	z-index:1;
+	background-color:#FFFFFF;
+}
+#analytics-container .full {
+	margin: 10px 0;
+	z-index:1;
+}
+
+#analytics-container .bar {
+	margin-right:1px;
+	margin-left:1px;
+	z-index:1;
+	background-color:#81BEF7;
+	font-size:0.8em;
+	overflow:hidden;
+}
+#analytics-container .vbar {
+	height:20px;
+	background-color:#81BEF7;
+
+}
+#analytics-container .bar:hover {
+	margin-right:1px;
+	z-index:1;
+	background-color:#2E9AFE;
+
+}
+
+#analytics-container .timeline {
+	border-left:1px #DDDDDD solid;
+	font-size:0.8em;
+	color:#333333;
+}
+#analytics-container .summary td {
+	
+	padding: 6px;
+}
+
