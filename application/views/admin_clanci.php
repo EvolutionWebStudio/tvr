@@ -37,17 +37,52 @@
 				
 			</form>
 		</div>
-<ul class="article-list small-12 columns">
-		
-	
-	<?php if ($posts){ foreach ($posts as $post): ?>
-		<li class="clearfix">
-			<p class="article-list-title"><?php echo $post->prioritet.'. '.$post->naslov.'<t>'; ?></p>
-			<div class="admin-options">
-				<a class="ui-button-small button-edit" title="Izmjeni ponudu"  href="<?php echo site_url("post/izmjeni_clanak/$post->cid") ?>">Izmjeni ponudu</a>
-				<a class="ui-button-small button-delete" title="Izbriši ponudu" href="<?php echo site_url("post/delete_clanak/$post->cid") ?>">Obriši ponudu</a>
-			</div>
-		</li>
-	<?php endforeach; } else echo "Nema rezultata!";?>
-</ul>
+<!--<ul class="article-list small-12 columns">-->
+<!--		-->
+<!--	-->
+<!--	--><?php //if ($posts){ foreach ($posts as $post): ?>
+<!--		<li class="clearfix">-->
+<!--			<p class="article-list-title">--><?php //echo $post->prioritet.'. '.$post->naslov.'<t>'; ?><!--</p>-->
+<!--			<div class="admin-options">-->
+<!--				<a class="ui-button-small button-edit" title="Izmjeni ponudu"  href="--><?php //echo site_url("post/izmjeni_clanak/$post->cid") ?><!--">Izmjeni ponudu</a>-->
+<!--				<a class="ui-button-small button-delete" title="Izbriši ponudu" href="--><?php //echo site_url("post/delete_clanak/$post->cid") ?><!--">Obriši ponudu</a>-->
+<!--			</div>-->
+<!--		</li>-->
+<!--	--><?php //endforeach; } else echo "Nema rezultata!";?>
+<!--</ul>-->
+
+    <table class="small-12">
+        <thead>
+        <tr>
+            <td title="Redni broj članka u prikazu" class="">#</td>
+            <td title="Naslov članka">Naslov</td>
+            <td title="Opcije prikaza" class="small-2">Prikaz</td>
+            <td title="Opcije za administraciju" class="small-1">Admin</td>
+        </tr>
+        </thead>
+        <tbody>
+        <?php if ($posts) {
+            foreach ($posts as $post): ?>
+                <tr>
+                    <td>
+
+                        <?php echo $post->prioritet . '.'; ?>
+                    </td>
+                    <td><?php echo $post->naslov; ?></td>
+                    <td>
+                        <span title="Pokazuje da li ponuda objavljena ili ne" class="ui-indicator-small <?php echo ($post->status) ? "active" : "" ?>">&#59146;</span>
+                        <span title="Pokazuje da li ponuda aktuelna ili ne" class="ui-indicator-small <?php echo ($post->aktuelno) ? "active" : "" ?>">&#9733;</span>
+                        <span title="Pokazuje da li ponuda na slajderu ili ne" class="ui-indicator-small <?php echo ($post->slider) ? "active" : "" ?>">&#127748;</span>
+                    </td>
+                    <td>
+                        <a class="ui-button-small button-edit" title="Izmjeni ponudu"  href="<?php echo site_url("post/izmjeni_clanak/$post->cid") ?>">Izmjeni ponudu</a>
+                        <a class="ui-button-small button-delete" title="Izbriši ponudu" href="<?php echo site_url("post/delete_clanak/$post->cid") ?>">Obriši ponudu</a>
+                    </td>
+                </tr>
+        <?php endforeach;
+            }
+        else
+            echo "Nema rezultata!"; ?>
+        </tbody>
+    </table>
 </div>

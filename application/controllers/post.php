@@ -497,7 +497,7 @@ class Post extends RE_Controller {
 		}
 		
 		/**
-		 * Akcija add calnak kupi podatke iz foreme metodom POST
+		 * Akcija add clanak kupi podatke iz foreme metodom POST
 		 * i upisuje ih u bazu
 		 */
 		public function action_add_clanak()
@@ -537,8 +537,25 @@ class Post extends RE_Controller {
 			$this->mpost->delete_post($id);
 			redirect(site_url("post/spisak_clanaka"));
 		}
+
+    /**
+     * Akcija prikaz u slideru clanak stavlja clanak u slider ili ga brise iz njega
+     */
+//TODO uraditi funkciju za toggle stavljanje u slider
+//    public function action_prikaz_u_slideru_clanak()
+//    {
+//        $this->check_login();
+//        $this->load->model('mpost');
+//
+//        $post = array(
+//            "cid" => $this->input->post("id"),
+//        );
+//
+//        $this->mpost->
+//    }
+
 //ponude		
-		/**
+    /**
 		 * Akcija spisak ponuda prikazuje sve ponude
 		 */
 		public function action_spisak_ponuda()

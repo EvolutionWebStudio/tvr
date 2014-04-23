@@ -186,17 +186,19 @@ class MPost extends CI_Model
         "status" => -1,
         "category" => -1
     	);
-    // overwrite all the defaults with the arguments
-    $args = array_merge($default, $args);
-		
+
+        // overwrite all the defaults with the arguments
+        $args = array_merge($default, $args);
+
 	 	$sql = "SELECT * FROM clanak WHERE";
 		if ($args['aktuelno'] != -1) {$sql .=" aktuelno = ?"; $data[]=$args['aktuelno'];}
 		if ($args['status'] != -1) { if($args['aktuelno'] != -1)$sql .=" AND"; $sql .=" status = ?"; $data[]=$args['status'];}
-		if ($args['category'] != -1){ if($args['status'] != -1 or $args['aktuelno'] != -1)$sql .=" AND"; $sql .=" kategorija_id = ?"; $data[]=$args['category'];} 
-		
+		if ($args['category'] != -1){ if($args['status'] != -1 or $args['aktuelno'] != -1)$sql .=" AND"; $sql .=" kategorija_id = ?"; $data[]=$args['category'];}
+
+        $sql .= ' ORDER BY prioritet';
 
 		$query = $this->db->query($sql, $data);
-		
+
 		if ($query->num_rows() > 0)
 		{
 			return $query->result();
@@ -204,7 +206,7 @@ class MPost extends CI_Model
 		else
 		{
 			return null;
-		} 
+		}
 	 }
 	 
 	 public function return_prioritet()
